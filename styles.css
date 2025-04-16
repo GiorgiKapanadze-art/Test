@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  max-width: 1368px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  max-height: 768px;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../Test/images/background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border: 5px solid GREEN; */
+  padding: 20px 93px 0px 93px;
+}
+.header-top {
+  /* border: 3px solid green; */
+  display: flex;
+  /* align-items: center;
+  justify-content: flex-start; */
+}
+.logo {
+  width: 154px;
+  height: auto;
+  font-size: 35px;
+  font-weight: 400;
+  margin-right: 167px;
+}
+
+nav {
+  /* border: 3px solid green; */
+  display: inline-block;
+  width: 538px;
+  height: 16px;
+  margin-top: 0px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links {
+  font-size: 14px;
+  /* margin-left;: 50px; */
+  color: #ffffff;
+}
+
+.header-signin {
+  margin-left: 141px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 100%;
+  text-decoration: underline;
+  color: #ffffff;
+  width: 47px;
+  height: 16px;
+  margin-top: 16px;
+}
+
+.header-signup {
+  /* border: 2px solid green; */
+  padding: 16px 25px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #cd1a40, #ff803c);
+  box-shadow: 0px 5px 10px 0px #cd1a4038;
+  color: #ffffff;
+  font-weight: 14px;
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+.header-section {
+  /* border: 2px solid green; */
+  width: 580px;
+  height: 415px;
+  margin-top: 142px;
+  color: #ffffff;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 86px;
+  font-weight: 700;
+  line-height: 101px;
+}
+
+.para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.destination {
+  /* border: 2px solid black; */
+  width: 398px;
+  height: 150px;
+  margin: auto;
+  margin-top: 76px;
+  text-align: center;
+}
+
+.uppercase {
+  line-height: 100%;
+  font-size: 64px;
+  /* font-family: Work Sans; */
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.photos {
+  margin: 36px 93px 0px 93px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-top: 36px;
+}
+
+.malaysia {
+  width: 580px;
+  height: 626px;
+  background-image: linear-gradient(
+      to left,
+      rgba(30, 30, 30, 0.56),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../Test/images/Malaysia.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.malaysia-logo {
+  width: 168px;
+  height: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-tours {
+  padding: 16px 17px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #cd1a40, #ff803c);
+  box-shadow: 0px 5px 10px 0px #cd1a4038;
+  margin-top: 8px;
+}
+
+.three-photos {
+  width: 580px;
+  height: 626px;
+}
+
+.dubai {
+  width: 280px;
+  height: 306px;
+  border: 2px solid black;
+  display: inline-block;
+  background-image: linear-gradient(
+      to left,
+      rgba(30, 30, 30, 0.56),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../Test/images/dubai.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.dubai-logo {
+  width: 105px;
+  height: 123px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greece {
+  width: 280px;
+  height: 306px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 14px;
+  background-image: linear-gradient(
+      to left,
+      rgba(30, 30, 30, 0.56),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../Test/images/greece.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.greece-logo {
+  /* border: 2px solid green; */
+  width: 105px;
+  height: 123px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singapore {
+  width: 580px;
+  height: 306px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-top: 10px;
+  background-image: linear-gradient(
+      to left,
+      rgba(30, 30, 30, 0.56),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../Test/images/singapore.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.singapore-logo {
+  /* border: 2px solid green; */
+  width: 145px;
+  height: 123px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* activity */
+
+.view-more {
+  width: 126px;
+  height: 54px;
+  padding: 20px;
+  border-radius: 18px;
+  margin: 36px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #cd1a40, #ff803c);
+  box-shadow: 0px 5px 10px 0px #cd1a4038;
+}
+
+.view-more a {
+  color: #ffffff;
+}
+
+.travelby {
+  /* border: 2px solid green; */
+  width: 780px;
+  height: 237px;
+  margin: 76px auto 36px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.activity {
+  max-width: 1182px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 378px;
+  height: 412px;
+  /* border: 2px solid black; */
+  border-radius: 6px;
+  background-image: linear-gradient(to right, #cd1a40, #ff803c);
+
+  padding: 56px 33px 38px 33px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card.camping,
+.card.trekking,
+.card.offroad,
+.card.camp-fire,
+.card.expiring {
+  background-image: none;
+  background-color: #fff9f0;
+  color: #999999;
+}
+
+.card img {
+  margin: auto;
+  width: 127px;
+  height: 122px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 38px 0px 11px 0px;
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 312px;
+  height: 109px;
+}
+
+.footer {
+  width: 1366px;
+  height: 398px;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-image: linear-gradient(
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 0.8)
+    ),
+    url(../Test/images/footer.png);
+
+  margin-top: 24px;
+}
+
+.maindiv {
+  width: 1180px;
+  height: 259px;
+  margin: 70px auto;
+  color: #ffffff;
+  display: flex;
+  gap: 62px;
+}
+
+.travel {
+  width: 380px;
+  height: 259px;
+}
+.travel p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.social-network {
+  width: 156px;
+  height: 24px;
+  display: flex;
+  gap: 20px;
+}
+.about,
+.company,
+.contact-us {
+  width: 138px;
+  height: 234px;
+}
+.about h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.about p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.company h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.company p {
+  font-weight: 300;
+  font-size: 18px;
+}
+.contact-us {
+  width: 332px;
+  height: 235px;
+}
+
+.contact-us h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.contact-us p {
+  font-weight: 300;
+  font-size: 18px;
+}
